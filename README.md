@@ -23,5 +23,13 @@ cd brewtrack
 npm install
 npm start
 ```
+## Sales Dashboard screenshots
 
+### All orders
+
+![Sales Dashboard with All selected](dashboard-all.png)
+
+### Today's orders
+
+![Sales Dashboard with Today selected after completing an order](dashboard-today.png)
 
