@@ -3,11 +3,9 @@
 **A Mobile Product and Order Management App for Small Coffee Shops**
 
 CS624 Full Stack Development – Mobile Application · Prof. Mike Prasad · City University of Seattle
-Team: Xavier Backus, Qian Zhou, Sunudji Hegde
+Team: Xavier Backus, Qian Zhou, Sunidhi Hegde
 
-> Status: **foundation only.** Navigation, theme, data layer and stub screens are in place.
-> Each member implements their own feature (see "Team ownership"). Replace the placeholder
-> sections below as you go — the grader reads this file.
+> See the feature table below for ownership.
 
 ---
 
@@ -17,7 +15,7 @@ Team: Xavier Backus, Qian Zhou, Sunudji Hegde
 |---|---|---|
 | Product management | Xavier | Add, edit, delete, search and toggle availability of menu items |
 | Order management | Qian | Create orders, update status (New → Preparing → Ready → Completed), delete orders |
-| Sales dashboard | Sunudji | Total orders, revenue, average order, bestsellers, date filter |
+| Sales dashboard | Sunidhi | Total orders, revenue, average order value, top five bestsellers, order status breakdown, and date filters |
 
 _TODO: update this table with what was actually built._
 
@@ -30,6 +28,8 @@ _TODO: update this table with what was actually built._
 - **Order history safety:** each order item stores a copy of the product name and price, so editing or deleting a product never changes past revenue.
 
 _TODO: add screenshots in a `/screenshots` folder and link them here._
+
+The Dashboard opens on **All**. **Today** uses the device’s local calendar day, and **7 Days** includes today and the previous six calendar days. Filters use the order creation date. Total orders and the status breakdown include every order in the selected range. Revenue, average order value, and bestsellers use completed orders. Bestsellers use quantities from the saved order items.
 
 ## 3. Project structure
 
@@ -47,7 +47,7 @@ src/
   screens/
     products/               Xavier
     orders/                 Qian
-    dashboard/              Sunudji
+    dashboard/              Sunidhi
 ```
 
 ## 4. Run it
@@ -80,7 +80,7 @@ _TODO (each member writes a short paragraph):_
 
 - **Xavier:**
 - **Qian:**
-- **Sunudji:**
+- **Sunidhi:**
 
 ## 7. References
 
