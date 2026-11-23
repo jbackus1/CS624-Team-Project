@@ -27,7 +27,31 @@ _TODO: update this table with what was actually built._
 - **CRUD:** create / read / update / delete for both products and orders.
 - **Order history safety:** each order item stores a copy of the product name and price, so editing or deleting a product never changes past revenue.
 
-_TODO: add screenshots in a `/screenshots` folder and link them here._
+
+### Order Management Screenshots — Qian Zhou
+
+The following screenshots demonstrate the Order Management module developed and tested using React Native, Expo, and Expo Go on an iPhone.
+
+**1. Order List and Status Filtering**
+
+![Order List](screenshots/order-list.jpg)
+
+**2. Create a New Order**
+
+![Create Order](screenshots/create-order.jpg)
+
+**3. New Order**
+
+![New Order](screenshots/new-order.jpg)
+
+**4. Order Details and Notes**
+
+![Order Details](screenshots/order-details.jpg)
+
+**5. Delete Order with Confirmation**
+
+![Delete Order](screenshots/delete-order.jpg)
+
 
 The Dashboard opens on **All**. **Today** uses the device’s local calendar day, and **7 Days** includes today and the previous six calendar days. Filters use the order creation date. Total orders and the status breakdown include every order in the selected range. Revenue, average order value, and bestsellers use completed orders. Bestsellers use quantities from the saved order items.
 
